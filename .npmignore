@@ -39,8 +39,15 @@ jspm_packages
 # JetBrains Tools
 /.idea
 
+# Example project
+/example
+
 # Compressed archives
 *.tar.gz
 *.tgz
 *.gz
 *.zip
+
+# Dev files
+/.editorconfig
+/.eslint*

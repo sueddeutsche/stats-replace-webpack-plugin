@@ -1,0 +1,37 @@
+{
+  "name": "stats-replace-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Fills placeholders in text files with the final name of compiled assets",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "peerDependencies": {
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sueddeutsche/stats-replace-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "assets",
+    "stats",
+    "caching",
+    "hashed bundle name"
+  ],
+  "author": "Sueddeutsche Zeitung Digitale Medien GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sueddeutsche/stats-replace-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/sueddeutsche/stats-replace-webpack-plugin#readme",
+  "devDependencies": {
+    "eslint": "^3.0.0"
+  }
+}
