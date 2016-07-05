@@ -17,6 +17,7 @@ See the `example` folder
 ## ToDo
 Pull requests welcome! :+1:
 
+* Add tests + Travis CI integration
 * Add support for SourceMapSource
 * Add support for files that are not part of the same webpack module
 * Add support for external files that are not even in another webpack module of the same compilation
