@@ -1,6 +1,6 @@
 {
   "name": "stats-replace-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Fills placeholders in text files with the final name of compiled assets",
   "main": "lib/index.js",
   "directories": {
