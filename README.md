@@ -3,7 +3,7 @@ This plugin replaces a placeholder string in a given text asset with the name of
 
 For example you can replace a script/link src placeholder in your html with the final name of your js/css asset.
 
-Tested with Node.js 6, probably works in 4+.
+Tested with Node.js 6.
 
 ## Advantages
 Compared to other solutions, that modify the bundled files after the webpack build, this plugin is better integrated into webpack and because of this comes with a few advantages.
