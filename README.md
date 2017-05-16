@@ -14,6 +14,14 @@ Compared to other solutions, that modify the bundled files after the webpack bui
 ## Example
 See the `example` folder
 
+## API
+### new StatsReplacePlugin()
+Array of option objects in the following format:
+* .asset {String}: Path of the asset whose content is changed by this plugin (e.g. "index.html" or "frontend/index.htm")
+* .basename {Boolean}: If set to false only the basename of the matched assets are inserted into your main asset. In the default configuration (false) the whole path to the matched asset is inserted.
+* .replacers {Object[]}: Array of replacer definitions. The plugin first looks if it can find a webpack asset that matches the regex provided as `asset` property. If yes it replaces all matches of the `find` regex with the name of the matched assets. Sounds complicated, but is pretty ease :simple_smile:. Just have a look at the `example` folder.
+
+
 ## ToDo
 Pull requests welcome! :+1:
 
