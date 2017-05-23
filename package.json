@@ -1,6 +1,6 @@
 {
   "name": "stats-replace-webpack-plugin",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Fills placeholders in text files with the final name of compiled assets",
   "main": "lib/index.js",
   "directories": {
@@ -33,8 +33,5 @@
   "homepage": "https://github.com/sueddeutsche/stats-replace-webpack-plugin#readme",
   "devDependencies": {
     "eslint": "^3.0.0"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
   }
 }
