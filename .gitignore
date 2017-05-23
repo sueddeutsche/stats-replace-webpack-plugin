@@ -44,3 +44,6 @@ jspm_packages
 *.tgz
 *.gz
 *.zip
+
+# Local .npmrc
+/.npmrc
