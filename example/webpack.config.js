@@ -1,11 +1,14 @@
 const StatsReplacePlugin = require("stats-replace-webpack-plugin");
 
 module.exports = {
-    entry: "./src/init.js",
+    entry: {
+        main: "./src/init.js",
+        basename: "./src/basename.js"
+    },
 
     output: {
         path: "./dist",
-        filename: "[name]-[chunkhash].js"
+        filename: "js/[name]-[chunkhash].js"
     },
 
     module: {
@@ -25,6 +28,16 @@ module.exports = {
                     {
                         asset: /main.*\.js/,
                         find: /\{\{JS_BUNDLE\}\}/
+                    }
+                ]
+            },
+            {
+                asset: "index.html",
+                basename: true,
+                replacers: [
+                    {
+                        asset: /basename.*\.js/,
+                        find: /\{\{BASENAME_JS_BUNDLE\}\}/
                     }
                 ]
             }
