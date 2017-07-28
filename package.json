@@ -7,8 +7,11 @@
     "example": "example",
     "lib": "lib"
   },
+  "devDependencies": {
+    "eslint": "^3.0.0"
+  },
   "peerDependencies": {
-    "webpack": "^1.13.1"
+    "webpack-sources": ">= 0.1.1"
   },
   "scripts": {
     "lint": "eslint .",
@@ -30,8 +33,5 @@
   "bugs": {
     "url": "https://github.com/sueddeutsche/stats-replace-webpack-plugin/issues"
   },
-  "homepage": "https://github.com/sueddeutsche/stats-replace-webpack-plugin#readme",
-  "devDependencies": {
-    "eslint": "^3.0.0"
-  }
+  "homepage": "https://github.com/sueddeutsche/stats-replace-webpack-plugin#readme"
 }
