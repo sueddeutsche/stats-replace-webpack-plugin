@@ -1,3 +1,4 @@
+const path = require("path");
 const StatsReplacePlugin = require("stats-replace-webpack-plugin");
 
 module.exports = {
@@ -7,14 +8,14 @@ module.exports = {
     },
 
     output: {
-        path: "./dist",
+        path: path.join(__dirname, "dist"),
         filename: "js/[name]-[chunkhash].js"
     },
 
     module: {
         loaders: [
             {
-                loader: "file?name=[name].[ext]",
+                loader: "file-loader?name=[name].[ext]",
                 test: /index\.html$/
             }
         ]
